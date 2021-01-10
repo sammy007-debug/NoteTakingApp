@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Taking Web App</title>
+    <link rel="stylesheet" href="/Style.css">
+</head>
+<body>
+    <div class = "note">
+        <h2>Note Taking App</h2>
+        <div class = "note-input">
+          <h3>Add A New Note: </h3>
+          <div class = "note-wrapper">
+            <input type = "text" id = "note-title" placeholder="Title of the note">
+            <textarea rows = "5" placeholder="Write your note here ... " id = "note-content"></textarea>
+            <button type = "button" class = "btn" id = "add-note-btn">
+              <span><i class = "fas fa-plus"></i></span>
+              Add Note
+            </button>
+          </div>
+        </div>
+  
+        <div class = "note-list">
+          <!-- note item -->
+          <!-- <div class = "note-item">
+            <h3>The Title Goes Here</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi fugit omnis expedita porro adipisci, asperiores facere ea. Voluptates quos quia consequatur explicabo. Perspiciatis, repellat. Ea facere dolorum a iste maiores!</p>
+            <button type = "button" class = "btn delete-note-btn">
+              <span><i class = "fas fa-trash"></i></span>
+              Remove
+            </button>
+          </div> -->
+        </div>
+  
+        <button type = "button" class = "btn" id = "delete-all-btn">
+          <span><i class = "fas fa-trash"></i></span>
+          Delete All
+        </button>
+      </div>
+      <script src="/app.js"></script>
+</body>
+</html>
